@@ -7,6 +7,7 @@ def test():
     assert(add("2")==2)
     
     #2 numbers
+    assert(add("1,2")==3)
     assert(add("a,2")== 3)
     assert(add("5,3000")==5)
     
